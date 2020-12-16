@@ -34,13 +34,14 @@ export default function Home() {
             </div>
           </Link>
 
-          <a
-            href="https://github.com/milcahhalili"
-            className="card"
+          <Link
+            href="/resume"
           >
-            <h3>Resume &rarr;</h3>
-            <p>Learn about my experience.</p>
-          </a>
+            <div className="card">
+              <h3>Resume &rarr;</h3>
+              <p>Learn about my experience.</p>
+            </div>
+          </Link>
 
           <a
             href="mailto:code@milcah.dev"
