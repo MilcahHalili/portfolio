@@ -49,7 +49,7 @@ export default function Home() {
           >
             <h3>Contact &rarr;</h3>
             <p>
-              Email me at code@milcah.dev.
+              Email me at code[at]milcah[dot]dev.
             </p>
           </a>
         </div>
