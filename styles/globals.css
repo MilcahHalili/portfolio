@@ -90,3 +90,15 @@ img:active {
     max-width: 80%;
   }
 }
+
+@media (min-width: 601px) {
+  .main {
+    width: 100%;
+  }
+}
+
+@media (min-width: 813px) {
+  .main {
+    width: 50%;
+  }
+}
