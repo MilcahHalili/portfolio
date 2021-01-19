@@ -6,7 +6,7 @@ export default function Resume() {
       <Layout
         title="Resume"
       >
-        <p>This is my resume.</p>
+        <p>View my resume <a href="https://docs.google.com/document/d/1WAcEnW53TJdUJTKLuZEH5OROx55DrR1C3r_fuexg-gc/edit?usp=sharing">here</a>.</p>
       </Layout>
     </>
   )

@@ -11,13 +11,17 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #228b22;
   text-decoration: none;
 }
 
-img:hover,
-img:focus,
-img:active {
+img {
+  max-width: 100vw;
+}
+
+footer > img:hover,
+footer > img:focus,
+footer > img:active {
   background-color: #228b22;
 }
 

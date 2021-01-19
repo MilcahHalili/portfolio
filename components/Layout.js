@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Layout(props) {
@@ -24,6 +25,8 @@ export default function Layout(props) {
       </main>
 
       <footer className={styles.footer}>
+        <Link href="/">👈🏽  &nbsp; Back</Link>
+        <br /><br />
         <a href="https://github.com/milcahhalili">
           <img className={styles.githubIcon} src="https://i.imgur.com/F4OeYPv.png" />
         </a>

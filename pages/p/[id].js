@@ -8,8 +8,10 @@ export default function Project({ project }) {
     >
       <p>{project.description}</p>
       <p>{project.technologies}</p>
+      <img src={project.img} />
       <a href={project.url}>View app here.</a>
-      <Link href="/">👈🏽 Back</Link>
+      <br />
+      <Link href="/projects">👈🏽  &nbsp; Back</Link>
     </Layout>
   )
 }

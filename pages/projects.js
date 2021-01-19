@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Head from 'next/head'
+import Layout from '../components/Layout'
 import ProjectCard from '../components/ProjectCard'
 
 export default class Projects extends Component {
@@ -15,23 +16,18 @@ export default class Projects extends Component {
   render() {
     const projects = this.state.projects.props.projects
     return (
-      <div className="container">
-        <Head>
-          <title>Projects</title>
-        </Head>
-        <main className="main">
-          <h1>Projects</h1>
-  
-          <div className="grid">
-            {projects.map(project => {
-              return <ProjectCard
-                project={project}
-                key={project.id}
-              />
-            })}
-          </div>
-        </main>
-      </div>
+      <Layout
+        title="Projects"
+      >
+        <div className="grid">
+          {projects.map(project => {
+            return <ProjectCard
+              project={project}
+              key={project.id}
+            />
+          })}
+        </div>
+      </Layout>
     )
   }
 }
