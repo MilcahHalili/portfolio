@@ -6,7 +6,9 @@ export default class Projects extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      projects: {props}
+      projects: {
+        props
+      }
     }
   }
   
@@ -33,6 +35,7 @@ export default class Projects extends Component {
     )
   }
 }
+
 
 export const getStaticProps = async () => { 
   const res = await fetch('https://my-json-server.typicode.com/milcahhalili/projects.json/projects')
