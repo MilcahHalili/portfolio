@@ -11,13 +11,16 @@ export default function About() {
         </div>
         <article>
           <p>
-            Currently, I work at <a href="https://generalassemb.ly">General Assembly</a> as an Instructional Associate, for the Remote Software Engineering Immersive.
+            I'm the Director of Engineering at <a href="https://chaninicholas.com/">CHANI</a>. I help improve the reliability of our native iOS app, build an agile engineering team, direct new feature releases, consult on technical architecture, and write backend code.
           </p>
           <p>
-            My favorite design agency to work with is <a href="https://softcorestudio.com">Softcore Studio</a>. We've created beautiful and easeful online experiences together for <a href="https://freckbeauty.com">Freck Beauty</a>.
+            Formerly, I've worked at <a href="https://generalassemb.ly">General Assembly</a> as an Instructional Associate, for the Remote Full Stack Software Engineering Immersive.
           </p>
           <p>
-            When I'm not helping humans solve challenging problems, I write lyrical essays and poetry, build queer community, take care of my puppy, go for nice, long walks, and take trips in my electric car.
+            My favorite design agency to work with is <a href="https://softcorestudio.com">Softcore Studio</a>. We created beautiful and easeful online experiences together for <a href="https://freckbeauty.com">Freck Beauty</a>.
+          </p>
+          <p>
+            When I'm not helping humans solve challenging problems, I write lyrical essays and poetry, build queer community, snuggle with my puppy, go for nice, long walks, and take trips in my electric car.
           </p>
         </article>
     </Layout>
