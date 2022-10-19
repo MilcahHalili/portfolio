@@ -6,17 +6,17 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Milcah Orbacedo</title>
+        <title>Milcah Halili</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="main">
         <h1 className={styles.title}>
-          Milcah Orbacedo
+          Milcah Halili
         </h1>
 
         <p className={styles.description}>
-          <code className={styles.code}>dev, instructor, writer</code>
+          <code className={styles.code}>dev, director, instructor, writer</code>
         </p>
 
         <div className="grid">
